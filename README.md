@@ -1,35 +1,41 @@
 # 📱 IMC For II-Master BDCC
 
-Bienvenue dans l'application **IMC For II-Master BDCC**, un outil simple et intuitif conçu pour vous aider à comprendre votre état de santé à travers le calcul de votre **Indice de Masse Corporelle (IMC)**.
+Bienvenue dans l'application **IMC For II-Master BDCC**, un outil mobile intuitif permettant de calculer votre **Indice de Masse Corporelle (IMC)** à partir de votre poids et taille.
 
 ---
 
-## 🧠 Pourquoi cette application ?
+## 🧠 Objectif de l’application
 
-Dans un monde où la santé est une priorité, connaître son IMC est un indicateur utile pour évaluer sa corpulence.  
-Cette application a été pensée pour :
+Cette application permet à l’utilisateur de :
 
-- Vous permettre d’entrer vos données facilement
-- Vous donner un résultat instantané
-- Vous guider avec une **image adaptée à votre catégorie**
+- Entrer son **poids** (en kilogrammes)
+- Entrer sa **taille** (en centimètres)
+- Calculer automatiquement son **IMC**
+- Obtenir :
+  - ✅ la **valeur de l’IMC**
+  - 🧍‍♂️ la **catégorie correspondante**
+  - 🖼️ une **image illustrative**
 
 ---
 
-## 🔍 Comment ça fonctionne ?
+## 🔍 Comment ça marche ?
 
-1. Vous entrez votre **poids (en kg)**
-2. Vous entrez votre **taille (en cm)**
-3. Vous appuyez sur **"Calculer IMC"**
-4. L’application vous affiche :
-  - 🎯 **Votre IMC** (ex: 27.77)
-  - 🧍‍♂️ Une **image** selon votre catégorie
-  - 🗣️ Un **texte** (ex : "Surpoids", "Normal", etc.)
+1. Saisissez votre poids et votre taille
+2. Cliquez sur **"Calculer IMC"**
+3. Le système calcule :
+   \[
+   IMC = \frac{\text{Poids (kg)}}{(\text{Taille (m)})^2}
+   \]
+4. Et vous affiche :
+  - 🎯 Le résultat numérique
+  - 👤 La catégorie : maigreur, normal, surpoids ou obésité
+  - 🖼️ Une image représentative
 
 ---
 
 ## 📊 Classification des IMC
 
-| Catégorie         | Valeur IMC           |
+| Catégorie         | IMC                  |
 |-------------------|----------------------|
 | Maigreur          | Moins de 18.5        |
 | Poids normal      | 18.5 à 24.9          |
@@ -41,48 +47,64 @@ Cette application a été pensée pour :
 
 ## 🖼️ Aperçu visuel
 
-| Catégorie | Capture |
-|-----------|---------|
-| Maigreur | ![maigreur](captures/maigre1.png) |
-| Normal | ![normal](captures/normal1.png) |
-| Surpoids | ![surpoids](captures/surpoid1.png) |
-| Obésité | ![obesite](captures/obesite1.png) |
+### 🔹 Maigreur
+
+| Interface | Résultat |
+|-----------|----------|
+| ![](captures/maigreurScrenn.png) | ![](captures/maigre1.png) |
 
 ---
 
-## ⚙️ Technologies
+### 🟢 Poids normal
 
-- Kotlin & XML
-- Android SDK 33+
-- `EditText`, `ImageView`, `Button`, `TextView`, `ConstraintLayout`
-
----
-
-## 🛠 Détails techniques
-
-- Calcul de l’IMC :
-  \[
-  \text{IMC} = \frac{\text{Poids}}{(\text{Taille} / 100)^2}
-  \]
-- Résultat arrondi à **2 chiffres**
-- Traitement logique côté `MainActivity.kt`
+| Interface | Résultat |
+|-----------|----------|
+| ![](captures/normalSc.png) | ![](captures/normal1.png) |
 
 ---
 
-## 👨‍🎓 Réalisé par
+### 🟡 Surpoids
+
+| Interface | Résultat |
+|-----------|----------|
+| ![](captures/surpoidSc.png) | ![](captures/surpoid1.png) |
+
+---
+
+### 🔴 Obésité
+
+| Interface | Résultat |
+|-----------|----------|
+| ![](captures/obesite1.png) | *(Résultat visuel unique)* |
+
+---
+
+## ⚙️ Technologies utilisées
+
+- **Langage** : Kotlin
+- **Interface** : XML
+- **IDE** : Android Studio
+- **SDK cible** : 33+
+- **Composants UI** :
+  - `EditText`
+  - `Button`
+  - `ImageView`
+  - `TextView`
+  - `ConstraintLayout`
+
+---
+
+## 🛠 Structure du projet
+---
+
+## 👤 Réalisé par
 
 **Abdellah Lambaraa**  
 _Master II Big Data & Cloud Computing – ENSET Mohammedia_
 
 ---
 
-## 📁 Structure du dossier `captures/`
-
----
-
 ## 📄 Licence
 
-Ce projet est fourni dans le cadre d’un exercice académique.  
+Projet académique développé dans un but pédagogique.  
 Toute réutilisation publique doit mentionner l’auteur.
-
----

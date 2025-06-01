@@ -78,6 +78,29 @@ Cette application permet à l’utilisateur de :
 | *(Non fourni)* | ![](./captures/obesite1.png) |
 ---
 
+
+| Exemple d'interface (Maigreur) |
+|--------------------------------|
+| ![IMC Maigreur](./screenshots/maigre1.png) |
+
+---
+
+| Exemple d'interface (Poids normal) |
+|-----------------------------------|
+| ![IMC Normal](./captures/normal1.png) |
+
+---
+
+| Exemple d'interface (SurPoids) |
+|-----------------------------------|
+| ![IMC Normal](./captures/surpoid1.png) |
+
+---
+
+| Exemple d'interface (obésité) |
+|-----------------------------------|
+| ![IMC Normal](./captures/obesite1.png) |
+
 ## ⚙️ Technologies utilisées
 
 - **Langage** : Kotlin

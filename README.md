@@ -94,7 +94,8 @@ Cette application permet à l’utilisateur de :
 | Exemple d'interface (SurPoids) |
 |-----------------------------------|
 | ![IMC Normal](./captures/surpoid1.png) |
-
+### 🎮 Interface principale
+<img src="captures/surpoid1.png" width="300" /> <img src="captures/surpoid1.png" width="300" />
 ---
 
 | Exemple d'interface (obésité) |

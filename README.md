@@ -51,7 +51,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| ![](./captures/maigreurScrenn.png) | ![](./captures/maigre1.png) |
+| ![](./screenshots/maigreurScrenn.png) | ![](./screenshots/maigre1.png) |
 
 ---
 
@@ -59,7 +59,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| ![](./captures/normalSc.png) | ![](./captures/normal1.png) |
+| ![](./screenshots/normalSc.png) | ![](./screenshots/normal1.png) |
 
 ---
 
@@ -67,7 +67,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| ![](./captures/surpoidSc.png) | ![](./captures/surpoid1.png) |
+| ![](./screenshots/surpoidSc.png) | ![](./screenshots/surpoid1.png) |
 
 ---
 
@@ -75,7 +75,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| *(Non fourni)* | ![](./captures/obesite1.png) |
+| *(Non fourni)* | ![](./screenshots/obesite1.png) |
 ---
 
 
@@ -87,20 +87,20 @@ Cette application permet à l’utilisateur de :
 
 | Exemple d'interface (Poids normal) |
 |-----------------------------------|
-| ![IMC Normal](./captures/normal1.png) |
+| ![IMC Normal](./screenshots/normal1.png) |
 
 ---
 
 | Exemple d'interface (SurPoids) |
 |-----------------------------------|
-| ![IMC Normal](./captures/surpoid1.png) |
+| ![IMC Normal](./screenshots/surpoid1.png) |
 ### 🎮 Interface principale
-<img src="captures/surpoid1.png" width="300" /> <img src="captures/surpoid1.png" width="300" />
+<img src="screenshots/surpoid1.png" width="300" /> <img src="screenshots/surpoid1.png" width="300" />
 ---
 
 | Exemple d'interface (obésité) |
 |-----------------------------------|
-| ![IMC Normal](./captures/obesite1.png) |
+| ![IMC Normal](./screenshots/obesite1.png) |
 
 ## ⚙️ Technologies utilisées
 

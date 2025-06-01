@@ -51,7 +51,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| ![](captures/maigreurScrenn.png) | ![](captures/maigre1.png) |
+| ![](./captures/maigreurScrenn.png) | ![](./captures/maigre1.png) |
 
 ---
 
@@ -59,7 +59,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| ![](captures/normalSc.png) | ![](captures/normal1.png) |
+| ![](./captures/normalSc.png) | ![](./captures/normal1.png) |
 
 ---
 
@@ -67,7 +67,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| ![](captures/surpoidSc.png) | ![](captures/surpoid1.png) |
+| ![](./captures/surpoidSc.png) | ![](./captures/surpoid1.png) |
 
 ---
 
@@ -75,8 +75,7 @@ Cette application permet à l’utilisateur de :
 
 | Interface | Résultat |
 |-----------|----------|
-| ![](captures/obesite1.png) | *(Résultat visuel unique)* |
-
+| *(Non fourni)* | ![](./captures/obesite1.png) |
 ---
 
 ## ⚙️ Technologies utilisées
